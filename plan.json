@@ -1,7 +1,7 @@
 [
  {
   "id": "01_selbstsabotage",
-  "when_zurich": "2026-10-26T21:45",
+  "when_zurich": "2026-10-26T21:37",
   "type": "carousel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/01_selbstsabotage_01.jpg",
@@ -13,11 +13,12 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/01_selbstsabotage_07.jpg"
   ],
   "caption": "Selbstsabotage ist leise. Sie sieht aus wie Vorsicht, Planung oder «noch nicht bereit sein». 🧠\n\nWelche Nummer erkennst du bei dir? Schreib sie in die Kommentare 👇\n\nSpeichere den Beitrag und schick ihn jemandem, der sich gerade selbst im Weg steht.\n\nFolge @klarverbunden für tägliche Gedanken, die dich weiterbringen.\n\n#selbstsabotage #persönlichkeitsentwicklung #mindset #motivationdeutsch #selbstwert",
-  "status": "geplant"
+  "status": "veröffentlicht",
+  "permalink": "https://www.instagram.com/p/De-KBKtF4bC/"
  },
  {
   "id": "05_reel_anfangen",
-  "when_zurich": "2026-10-27T19:00",
+  "when_zurich": "2026-10-27T18:27",
   "type": "reel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/05_reel_anfangen.mp4"
@@ -27,7 +28,7 @@
  },
  {
   "id": "02_trennung",
-  "when_zurich": "2026-10-28T18:30",
+  "when_zurich": "2026-10-28T18:27",
   "type": "carousel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/02_trennung_01.jpg",
@@ -43,7 +44,7 @@
  },
  {
   "id": "06_reel_disziplin",
-  "when_zurich": "2026-10-29T19:00",
+  "when_zurich": "2026-10-29T18:27",
   "type": "reel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/06_reel_disziplin.mp4"
@@ -53,7 +54,7 @@
  },
  {
   "id": "03_selbstwert",
-  "when_zurich": "2026-10-30T18:00",
+  "when_zurich": "2026-10-30T18:27",
   "type": "carousel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/03_selbstwert_01.jpg",
@@ -71,7 +72,7 @@
  },
  {
   "id": "07_reel_zweifel",
-  "when_zurich": "2026-10-31T10:30",
+  "when_zurich": "2026-10-31T18:27",
   "type": "reel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/07_reel_zweifel.mp4"
@@ -81,7 +82,7 @@
  },
  {
   "id": "04_aufschieben",
-  "when_zurich": "2026-11-01T19:30",
+  "when_zurich": "2026-11-01T18:27",
   "type": "carousel",
   "media": [
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w1/04_aufschieben_01.jpg",
