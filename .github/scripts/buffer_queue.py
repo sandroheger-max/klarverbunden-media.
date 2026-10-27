@@ -4,12 +4,13 @@ Modus: python buffer_queue.py check   -> zeigt Konto, Organisationen und Kanäle
        python buffer_queue.py queue   -> plant ein und markiert die Einträge mit "in_buffer"
 """
 import json, os, sys, urllib.request, urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
 API = "https://api.buffer.com"
 KEY = os.environ.get("BUFFER_API_KEY", "")
 ZH = ZoneInfo("Europe/Zurich")
+WINDOW_DAYS = int(os.environ.get("WINDOW_DAYS", "5"))
 # Plan-Datei -> Umgebungsvariable mit der Buffer-Kanal-ID
 PLANS = {
     "tiktok/gedankentanken/plan_tiktok.json": os.environ.get("BUFFER_TIKTOK_CHANNEL", "6ae0ed4d2f1f5ed648ee4d04"),
@@ -31,8 +32,8 @@ def gql(query, variables=None):
 
 
 def check():
-    d = gql("query { account { id email organizations { id name } } }")
-    print(json.dumps(d, indent=1, ensure_ascii=False))
+    d = gql("query { account { id organizations { id name } } }")
+    print("Verbindung ok, Organisationen:", len(d["account"]["organizations"]))
     for org in d["account"]["organizations"]:
         c = gql("query($o: OrganizationId!) { channels(input: {organizationId: $o}) { id name service } }", {"o": org["id"]})
         print(json.dumps(c, indent=1, ensure_ascii=False))
@@ -60,6 +61,8 @@ def queue():
             if due <= now:
                 print(f"übersprungen (Zeit vorbei): {e['id']}")
                 continue
+            if due > now + timedelta(days=WINDOW_DAYS):
+                continue  # später einplanen (Buffer-Gratis: max. 10 in der Warteschlange)
             inp = {"text": e["caption"], "channelId": channel, "schedulingType": "automatic",
                    "mode": "customScheduled", "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
                    "assets": [{"video": {"url": e["video"], "metadata": {"thumbnailOffset": 500}}}]}
