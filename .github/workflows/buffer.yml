@@ -2,7 +2,7 @@ name: Buffer einplanen
 on:
   push:
     branches: [main]
-    paths: ["tiktok/gedankentanken/plan_tiktok.json"]
+    paths: ["tiktok/gedankentanken/plan_tiktok.json", "plan.json"]
   workflow_dispatch:
     inputs:
       modus:
@@ -13,6 +13,9 @@ on:
       tage:
         description: "wie viele Tage im Voraus einplanen"
         default: "5"
+      nur_id:
+        description: "nur diesen Eintrag (Test)"
+        default: ""
 
   schedule:
     - cron: "23 6 * * *"   # täglich als Sicherheitsnetz
@@ -30,11 +33,12 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           WINDOW_DAYS: ${{ inputs.tage || '5' }}
+          NUR_ID: ${{ inputs.nur_id || '' }}
         run: python .github/scripts/buffer_queue.py ${{ inputs.modus || 'queue' }}
       - name: Status speichern
         if: always()
         run: |
           git config user.name "buffer-bot"
           git config user.email "buffer-bot@users.noreply.github.com"
-          git add -A tiktok
-          git diff --cached --quiet || (git commit -m "Buffer: Status aktualisiert" && git push)
+          git add -A tiktok plan.json
+          git diff --cached --quiet || (git commit -m "Buffer: Status aktualisiert" && (git push || (git pull --rebase && git push)))

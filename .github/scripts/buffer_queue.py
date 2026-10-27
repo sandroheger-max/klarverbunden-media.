@@ -13,8 +13,23 @@ ZH = ZoneInfo("Europe/Zurich")
 WINDOW_DAYS = int(os.environ.get("WINDOW_DAYS", "5"))
 # Plan-Datei -> Umgebungsvariable mit der Buffer-Kanal-ID
 PLANS = {
-    "tiktok/gedankentanken/plan_tiktok.json": os.environ.get("BUFFER_TIKTOK_CHANNEL", "6ae0ed4d2f1f5ed648ee4d04"),
+    "tiktok/gedankentanken/plan_tiktok.json": os.environ.get("BUFFER_TIKTOK_CHANNEL", "6ae0ed4d2f1f5ed648ee4d04"),  # TikTok @gedankentanken39
+    "plan.json": os.environ.get("BUFFER_IG_CHANNEL", "6ae0fd9d2f1f5ed648efa671"),  # Instagram @klarverbunden
 }
+
+
+def build_input(e, channel):
+    """TikTok-Plan: Feld "video". Instagram-Plan: "type" carousel/reel und Liste "media"."""
+    inp = {"text": e["caption"], "channelId": channel, "schedulingType": "automatic", "mode": "customScheduled"}
+    if "video" in e:
+        inp["assets"] = [{"video": {"url": e["video"], "metadata": {"thumbnailOffset": 500}}}]
+    elif e.get("type") == "reel":
+        inp["assets"] = [{"video": {"url": e["media"][0], "metadata": {"thumbnailOffset": 500}}}]
+        inp["metadata"] = {"instagram": {"type": "reel", "shouldShareToFeed": True}}
+    else:
+        inp["assets"] = [{"image": {"url": u}} for u in e["media"]]
+        inp["metadata"] = {"instagram": {"type": "post", "shouldShareToFeed": True}}
+    return inp
 
 
 def gql(query, variables=None):
@@ -47,14 +62,17 @@ MUT = """mutation($input: CreatePostInput!) {
 }"""
 
 
-def queue():
+def queue(only=None):
     now = datetime.now(timezone.utc)
-    changed, failed = False, 0
+    failed = 0
     for path, channel in PLANS.items():
+        changed = False
         if not os.path.exists(path):
             continue
         plan = json.load(open(path, encoding="utf-8"))
         for e in plan:
+            if only and e["id"] != only:
+                continue
             if e.get("status") != "geplant" or not e.get("when_zurich"):
                 continue
             due = datetime.fromisoformat(e["when_zurich"]).replace(tzinfo=ZH).astimezone(timezone.utc)
@@ -63,9 +81,8 @@ def queue():
                 continue
             if due > now + timedelta(days=WINDOW_DAYS):
                 continue  # später einplanen (Buffer-Gratis: max. 10 in der Warteschlange)
-            inp = {"text": e["caption"], "channelId": channel, "schedulingType": "automatic",
-                   "mode": "customScheduled", "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-                   "assets": [{"video": {"url": e["video"], "metadata": {"thumbnailOffset": 500}}}]}
+            inp = build_input(e, channel)
+            inp["dueAt"] = due.strftime("%Y-%m-%dT%H:%M:%S.000Z")
             try:
                 res = gql(MUT, {"input": inp})["createPost"]
             except RuntimeError as err:
@@ -85,4 +102,8 @@ def queue():
 if __name__ == "__main__":
     if not KEY:
         raise SystemExit("Secret BUFFER_API_KEY fehlt")
-    {"check": check, "queue": queue}[sys.argv[1] if len(sys.argv) > 1 else "queue"]()
+    mode = sys.argv[1] if len(sys.argv) > 1 else "queue"
+    if mode == "check":
+        check()
+    else:
+        queue(os.environ.get("NUR_ID") or None)
