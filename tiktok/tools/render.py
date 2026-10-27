@@ -54,7 +54,7 @@ for idx, r in enumerate(reels):
         flt.append(f"[{prev}][v{i}]xfade=transition=fade:duration={X}:offset={off}[x{i}]"); prev = f"x{i}"
     dur = n * SEC - (n - 1) * X
     wav = f"{d}/music.wav"
-    subprocess.run(["python3", "-I", f"{S}/music.py", wav, str(idx), str([0, 2, -3, 5, -2, 3, 0][idx % 7]), str(dur)], check=True)
+    subprocess.run(["python3", "-I", f"{S}/music.py", wav, str(idx + int(os.environ.get("SEED_OFFSET", "0"))), str([0, 2, -3, 5, -2, 3, 0][(idx + int(os.environ.get("SEED_OFFSET", "0"))) % 7]), str(dur)], check=True)
     ins += ["-i", wav]
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *ins, "-filter_complex", ";".join(flt),
                     "-map", f"[{prev}]", "-map", f"{n}:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
