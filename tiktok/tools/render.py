@@ -1,6 +1,6 @@
 import json, base64, sys, os, subprocess, html
 from playwright.sync_api import sync_playwright
-S = os.path.dirname(os.path.abspath(__file__))
+S = os.environ.get("TOOLS_DIR", os.path.dirname(os.path.abspath(__file__)))
 REELS, OUT = sys.argv[1], sys.argv[2]
 only = sys.argv[3] if len(sys.argv) > 3 else None
 os.makedirs(OUT, exist_ok=True)
@@ -19,15 +19,18 @@ CSS = """*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;backgr
 .foot{position:absolute;bottom:330px;left:0;right:0;text-align:center;font:500 32px I;color:rgba(243,235,221,.55);letter-spacing:.04em}
 .dots{position:absolute;bottom:260px;left:0;right:0;display:flex;justify-content:center;gap:14px}
 .dots i{width:12px;height:12px;border-radius:50%;background:rgba(243,235,221,.25)}.dots i.on{background:#e8a04a}"""
+HANDLE = os.environ.get("HANDLE", "@gedankentanken39"); KICK = os.environ.get("KICK", "GEDANKENTANKEN")
 def page(text, i, n):
     cls = "hook" if i == 0 else ("last" if i == n - 1 else "")
     dots = "".join(f'<i class="{"on" if k == i else ""}"></i>' for k in range(n))
     line = '<div class="line"></div>' if i == 0 else ""
     return (f"<html><head><style>{FONTS}{CSS}</style></head><body class='{cls}'><div class='bg'></div>"
-            f"<div class='kick'>GEDANKENTANKEN</div><div class='wrap'><div class='t'>{html.escape(text)}</div>{line}</div>"
-            f"<div class='dots'>{dots}</div><div class='foot'>@gedankentanken39</div></body></html>")
+            f"<div class='kick'>{KICK}</div><div class='wrap'><div class='t'>{html.escape(text)}</div>{line}</div>"
+            f"<div class='dots'>{dots}</div><div class='foot'>{HANDLE}</div></body></html>")
 reels = json.load(open(REELS))
+reels = reels["reels"] if isinstance(reels, dict) else reels
 SEC, X = 2.8, 0.4
+
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1920})
     for r in reels:
