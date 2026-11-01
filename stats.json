@@ -1,0 +1,70 @@
+{
+ "hinweis": "Wöchentliche Zahlen (Sonntags-Lauf). TikTok-Aufrufe aus Buffer-Statistik.",
+ "wochen": [
+  {
+   "datum": "2026-11-01",
+   "woche": 3,
+   "instagram": {
+    "follower": 2,
+    "beitraege": 42,
+    "vorwoche_follower": null,
+    "beste": [
+     {
+      "thema": "Selbstwert",
+      "format": "Karussell",
+      "hook": "Affirmationen/Liste",
+      "likes": 6,
+      "kommentare": 4,
+      "link": "https://www.instagram.com/p/DfIHiV3FPhQ/"
+     },
+     {
+      "thema": "Trennung",
+      "format": "Karussell",
+      "hook": "Gefühl benennen",
+      "likes": 5,
+      "kommentare": 3,
+      "link": "https://www.instagram.com/p/DfC963JIPrD/"
+     }
+    ],
+    "schwaechste": {
+     "thema": "Motivation",
+     "format": "Reel",
+     "likes": 0,
+     "kommentare": 0
+    },
+    "folgerung": "Selbstwert und Trennung/Liebeskummer öfter, Motivation seltener. Ab jetzt nur Reels (Entscheid 31.10.)."
+   },
+   "tiktok": {
+    "konto": "@pinsel89",
+    "gesendet": 4,
+    "aufrufe_total": 0,
+    "likes": 0,
+    "kommentare": 0,
+    "videos": [
+     {
+      "id": "gt01_selbstsabotage",
+      "hook": "Widerspruch",
+      "aufrufe": 0
+     },
+     {
+      "id": "gt02_trennung",
+      "hook": "Gefühl benennen",
+      "aufrufe": 0
+     },
+     {
+      "id": "gt03_disziplin",
+      "hook": "Gegensatz",
+      "aufrufe": 0
+     },
+     {
+      "id": "gt04_selbstwert",
+      "hook": "Liste",
+      "aufrufe": 0
+     }
+    ],
+    "auffaellig": "Alle 4 gesendeten Videos zeigen in Buffer 0 Aufrufe (auch nach 1-4 Tagen). Entweder liefert Buffer die Zahlen nicht, oder die Videos sind auf TikTok nicht öffentlich/eingeschränkt. Sandro soll in der TikTok-App prüfen.",
+    "folgerung": "Noch keine Gewinner-Daten. Woche 3: 28 Videos, 4 pro Tag, viele Hook-Arten (Liste, Entweder-oder, Serie, Widerspruch, Frage) testen."
+   }
+  }
+ ]
+}

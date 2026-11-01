@@ -11,9 +11,11 @@ API = "https://api.buffer.com"
 KEY = os.environ.get("BUFFER_API_KEY", "")
 ZH = ZoneInfo("Europe/Zurich")
 WINDOW_DAYS = int(os.environ.get("WINDOW_DAYS", "5"))
+# TikTok: 4 Videos pro Tag, Buffer-Gratis max. 10 pro Kanal -> nur 2 Tage im Voraus (max. 8)
+TIKTOK_WINDOW_DAYS = min(WINDOW_DAYS, int(os.environ.get("TIKTOK_WINDOW_DAYS", "2")))
 # Plan-Datei -> Umgebungsvariable mit der Buffer-Kanal-ID
 PLANS = {
-    "tiktok/gedankentanken/plan_tiktok.json": os.environ.get("BUFFER_TIKTOK_CHANNEL", "6ae0ed4d2f1f5ed648ee4d04"),  # TikTok @gedankentanken39
+    "tiktok/gedankentanken/plan_tiktok.json": os.environ.get("BUFFER_TIKTOK_CHANNEL", "6ae0ed4d2f1f5ed648ee4d04"),  # TikTok @pinsel89
     "plan.json": os.environ.get("BUFFER_IG_CHANNEL", "6ae0fd9d2f1f5ed648efa671"),  # Instagram @klarverbunden
 }
 
@@ -79,7 +81,8 @@ def queue(only=None):
             if due <= now:
                 print(f"übersprungen (Zeit vorbei): {e['id']}")
                 continue
-            if due > now + timedelta(days=WINDOW_DAYS):
+            window = TIKTOK_WINDOW_DAYS if "tiktok" in path else WINDOW_DAYS
+            if due > now + timedelta(days=window):
                 continue  # später einplanen (Buffer-Gratis: max. 10 in der Warteschlange)
             inp = build_input(e, channel)
             inp["dueAt"] = due.strftime("%Y-%m-%dT%H:%M:%S.000Z")

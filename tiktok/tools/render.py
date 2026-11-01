@@ -20,16 +20,18 @@ CSS = """*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;backgr
 .dots{position:absolute;bottom:260px;left:0;right:0;display:flex;justify-content:center;gap:14px}
 .dots i{width:12px;height:12px;border-radius:50%;background:rgba(243,235,221,.25)}.dots i.on{background:#e8a04a}"""
 HANDLE = os.environ.get("HANDLE", "@gedankentanken39"); KICK = os.environ.get("KICK", "GEDANKENTANKEN")
-def page(text, i, n):
+def page(text, i, n, r={}):
+    css = CSS.replace("#e8a04a", r.get("accent", "#e8a04a")).replace("#3a2a1a", r.get("glow", "#3a2a1a"))
+    kick = html.escape(r.get("kick", KICK))
     cls = "hook" if i == 0 else ("last" if i == n - 1 else "")
     dots = "".join(f'<i class="{"on" if k == i else ""}"></i>' for k in range(n))
     line = '<div class="line"></div>' if i == 0 else ""
-    return (f"<html><head><style>{FONTS}{CSS}</style></head><body class='{cls}'><div class='bg'></div>"
-            f"<div class='kick'>{KICK}</div><div class='wrap'><div class='t'>{html.escape(text)}</div>{line}</div>"
+    return (f"<html><head><style>{FONTS}{css}</style></head><body class='{cls}'><div class='bg'></div>"
+            f"<div class='kick'>{kick}</div><div class='wrap'><div class='t'>{html.escape(text)}</div>{line}</div>"
             f"<div class='dots'>{dots}</div><div class='foot'>{HANDLE}</div></body></html>")
 reels = json.load(open(REELS))
 reels = reels["reels"] if isinstance(reels, dict) else reels
-SEC, X = 2.8, 0.4
+SEC, X = float(os.environ.get("SEC", "2.8")), 0.4
 
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1920})
@@ -38,7 +40,7 @@ with sync_playwright() as p:
         d = f"{OUT}/{r['id']}"; os.makedirs(d, exist_ok=True)
         n = len(r["screens"])
         for i, t in enumerate(r["screens"]):
-            pg.set_content(page(t, i, n)); pg.evaluate("document.fonts.ready.then(()=>1)")
+            pg.set_content(page(t, i, n, r)); pg.evaluate("document.fonts.ready.then(()=>1)")
             ok = pg.evaluate("document.fonts.check('650 96px F')" if i == 0 else "document.fonts.check('italic 84px FI')")
             assert ok, pg.evaluate("[...document.fonts].map(f=>f.family+f.style+f.weight+f.status).join(',')")
             pg.screenshot(path=f"{d}/s{i}.png")

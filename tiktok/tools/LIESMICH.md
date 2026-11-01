@@ -16,3 +16,9 @@
 - Karussells: `TOOLS_DIR=tiktok/tools python3 tiktok/tools/carousel.py w2/inhalt.json w2` (HANDLE=@klarverbunden Standard).
 - Reels: `HANDLE=@klarverbunden KICK=KLARVERBUNDEN SEED_OFFSET=20 python3 tiktok/tools/render.py w2/inhalt.json <ordner>` (TikTok: ohne HANDLE/KICK).
 - WOCHENAUFGABE.md ist veraltet: die Wochenaufgabe «Klarverbunden + Gedankentanken Wochen-Inhalte» (So 16:43) macht beides.
+
+## Neu (01.11.2026)
+- Buffer-Kanal 6ae0ed4d2f1f5ed648ee4d04 postet auf TikTok **@pinsel89** (nicht @gedankentanken39). TikTok rendern mit `HANDLE=""`, Captions neutral («Folge für mehr Gedanken wie diesen.»).
+- render.py: `SEC=2.3` (Sekunden pro Bildschirm, TikTok 7–15 s), pro Video optional `kick`, `accent`, `glow` im JSON (Farbvarianten).
+- buffer_queue.py: TikTok nur 2 Tage im Voraus (`TIKTOK_WINDOW_DAYS`, max. 8 bei 4/Tag), Instagram 5 Tage; Workflow 2× täglich (06:23 und 16:23 UTC).
+- stats.json im Hauptordner: Wochenzahlen beider Konten.

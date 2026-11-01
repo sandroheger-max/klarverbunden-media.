@@ -18,7 +18,8 @@ on:
         default: ""
 
   schedule:
-    - cron: "23 6 * * *"   # täglich als Sicherheitsnetz
+    - cron: "23 6 * * *"   # 2x täglich (TikTok nur 2 Tage im Voraus wegen Buffer-Limit 10)
+    - cron: "23 16 * * *"
 permissions:
   contents: write
 concurrency: buffer
