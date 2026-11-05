@@ -102,11 +102,68 @@ def queue(only=None):
         sys.exit(1)
 
 
+TIKTOK_CH = PLANS["tiktok/gedankentanken/plan_tiktok.json"]
+
+
+def _type(name):
+    q = """query($n: String!) { __type(name: $n) { fields { name args { name type { name kind ofType { name kind ofType { name } } } }
+      type { name kind ofType { name kind ofType { name kind } } } } inputFields { name type { name kind ofType { name } } } } }"""
+    return gql(q, {"n": name})["__type"]
+
+
+def diagnose():
+    """Zeigt, mit welchem Profil der TikTok-Kanal verbunden ist (nur Namensfelder)."""
+    ch = _type("Channel") or {}
+    keep = [f["name"] for f in ch.get("fields", []) if not f["args"]
+            and any(k in f["name"].lower() for k in ("name", "service", "handle", "user", "type", "locked", "disconnected"))
+            and (f["type"]["kind"] == "SCALAR" or (f["type"].get("ofType") or {}).get("kind") in ("SCALAR", "ENUM") or f["type"]["kind"] == "ENUM")]
+    print("Channel-Felder:", keep)
+    d = gql("query($i: ChannelId!) { channel(input: {id: $i}) { %s } }" % " ".join(keep), {"i": TIKTOK_CH})
+    print(json.dumps(d, indent=1, ensure_ascii=False))
+
+
+def tiktok_stop():
+    """Löscht künftige, schon in Buffer eingeplante TikTok-Beiträge und setzt sie auf vorrat."""
+    m = next(f for f in _type("Mutation")["fields"] if f["name"] == "deletePost")
+    arg = m["args"][0]
+    tname = arg["type"].get("name") or (arg["type"].get("ofType") or {}).get("name")
+    print("deletePost-Argument:", arg["name"], tname)
+    if arg["name"] == "input":
+        fields = [x["name"] for x in (_type(tname).get("inputFields") or [])]
+        print("Input-Felder:", fields)
+        mk = lambda pid: {"input": {"id": pid}}
+        sig = "mutation($input: %s!) { deletePost(input: $input) { __typename ... on MutationError { message } } }" % tname
+    else:
+        mk = lambda pid: {"id": pid}
+        sig = "mutation($id: %s!) { deletePost(id: $id) { __typename ... on MutationError { message } } }" % tname
+    path = "tiktok/gedankentanken/plan_tiktok.json"
+    plan = json.load(open(path, encoding="utf-8"))
+    now = datetime.now(timezone.utc)
+    for e in plan:
+        if e.get("status") != "in_buffer" or not e.get("buffer_post_id"):
+            continue
+        due = datetime.fromisoformat(e["when_zurich"]).replace(tzinfo=ZH).astimezone(timezone.utc)
+        if due <= now:
+            continue
+        try:
+            r = gql(sig, mk(e["buffer_post_id"]))["deletePost"]
+        except RuntimeError as err:
+            print("FEHLER", e["id"], err); continue
+        print("aus Buffer entfernt:", e["id"], r)
+        if "message" not in r:
+            e["status"] = "vorrat"; e.pop("buffer_post_id", None)
+    json.dump(plan, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
 if __name__ == "__main__":
     if not KEY:
         raise SystemExit("Secret BUFFER_API_KEY fehlt")
     mode = sys.argv[1] if len(sys.argv) > 1 else "queue"
     if mode == "check":
         check()
+    elif mode == "diagnose":
+        diagnose()
+    elif mode == "tiktok_stop":
+        tiktok_stop()
     else:
         queue(os.environ.get("NUR_ID") or None)
