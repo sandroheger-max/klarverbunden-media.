@@ -65,6 +65,45 @@
     "auffaellig": "Alle 4 gesendeten Videos zeigen in Buffer 0 Aufrufe (auch nach 1-4 Tagen). Entweder liefert Buffer die Zahlen nicht, oder die Videos sind auf TikTok nicht öffentlich/eingeschränkt. Sandro soll in der TikTok-App prüfen.",
     "folgerung": "Noch keine Gewinner-Daten. Woche 3: 28 Videos, 4 pro Tag, viele Hook-Arten (Liste, Entweder-oder, Serie, Widerspruch, Frage) testen."
    }
+  },
+  {
+   "datum": "2026-11-08",
+   "woche": 4,
+   "instagram": {
+    "follower": 3,
+    "beitraege": 49,
+    "vorwoche_follower": 2,
+    "veraenderung": "+1",
+    "beste": [
+     {
+      "thema": "Schwere Zeiten",
+      "format": "Karussell",
+      "likes": 3,
+      "kommentare": 1,
+      "gespeichert": "nicht abrufbar",
+      "link": "https://www.instagram.com/p/DfU_ffBFBag/"
+     },
+     {
+      "thema": "Gut tun (Beziehungen)",
+      "format": "Karussell",
+      "likes": 2,
+      "kommentare": 1,
+      "gespeichert": "nicht abrufbar",
+      "link": "https://www.instagram.com/p/DfP15NOFe8F/"
+     }
+    ],
+    "schnitt_01_07_11": {
+     "karussell_likes": 2.0,
+     "reel_likes": 0.7
+    },
+    "test_vorwoche": "Kein A/B-Test definiert (Woche 3 nur Reels, Serie Teil 1/3 läuft ab 09.11.). Beobachtung: Karussells (Ø 2 Likes) schlagen Reels (Ø 0,7) – bestätigt mehr Karussells.",
+    "test_diese_woche": "A = Checkliste («X Dinge, die …») vs. B = Fehler-Liste («X Fehler, die …»), je Karussell; Messung Gespeichert/Likes/Kommentare am 15. und 22.11.",
+    "selbstkritik": "Falsch war: Allerwelts-Motivation ohne Suchbegriff und ohne Produkt – 3 Wochen, 49 Beiträge, 3 Follower. Nicht messbar war bisher, wie oft gespeichert wird (Abfrage liefert keine Insights). Ändere: Thema Wohnungssuche Schweiz mit Suchbegriff in Folie 1 und Caption-Zeile 1, Serie «Wohnungs-Tipp Nr. X», 5 Karussells + 2 Reels, Fakten mit Gesetzesartikel/EDÖB belegt. Kein Verkaufshinweis, weil auf Payhip noch kein Wohnungs-Produkt sichtbar ist. Achtung: bis 15.11. laufen noch die alten Motivations-Reels (Woche 3), neue Strategie startet 16.11. Erste Bewertung am 22.11., Entscheid am 29.11.",
+    "folgerung": "Wechsel auf Wohnungs-Nische ab 16.11. Vergleich Karussell A vs. B ab nächstem Sonntag."
+   },
+   "tiktok": {
+    "status": "pausiert (Sicherheitsstopp seit 05.11., Konto pinsel89 unklar)"
+   }
   }
  ]
 }
