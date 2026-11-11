@@ -294,8 +294,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_01_dossier_09.jpg"
   ],
   "caption": "Wohnung finden in Zürich: Diese 7 Dinge gehören ins Bewerbungsdossier. 🏠\n\nBei begehrten Wohnungen gewinnt oft, wer zuerst ein vollständiges Dossier abgibt. Mach es einmal fertig als PDF – dann bist du bei jeder Besichtigung bereit.\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWas fehlt in deinem Dossier noch? 👇\n\nFolge @klarverbunden: jeden Tag ein Wohnungs-Tipp für die Schweiz.\n\n#wohnungssuche #wohnungzürich #bewerbungsdossier #wohnungfinden #schweiz",
-  "status": "geplant",
-  "test": "A – Checkliste («7 Dinge, die …»), Stadt im Titel"
+  "status": "in_buffer",
+  "test": "A – Checkliste («7 Dinge, die …»), Stadt im Titel",
+  "buffer_post_id": "6af4efb2cb4c7286fdfad3f2"
  },
  {
   "id": "w4_02_reel_absagen",
