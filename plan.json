@@ -306,8 +306,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_02_reel_absagen.mp4"
   ],
   "caption": "Wohnungssuche: Darum bekommst du nur Absagen. ⏱️\n\nBei gefragten Wohnungen zählt Tempo. Wer sein Bewerbungsdossier schon fertig hat und es direkt nach der Besichtigung abgibt, ist vorne mit dabei.\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWie viele Absagen hattest du schon? 👇\n\nFolge @klarverbunden: jeden Tag ein Wohnungs-Tipp.\n\n#wohnungssuche #wohnungfinden #bewerbungsdossier #wohnungzürich #schweiz",
-  "status": "geplant",
-  "test": "kein Test (Reel)"
+  "status": "in_buffer",
+  "test": "kein Test (Reel)",
+  "buffer_post_id": "6af63ace9df3cac8a221f0c5"
  },
  {
   "id": "w4_03_betreibungsauszug",
