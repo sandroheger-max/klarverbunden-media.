@@ -325,8 +325,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_03_betreibungsauszug_08.jpg"
   ],
   "caption": "Betreibungsauszug bestellen: So bekommst du ihn online für deine Wohnungsbewerbung. 📄\n\nFast jede Verwaltung will ihn sehen. Online geht es meist schnell – und für die Bewerbung reicht eine Kopie.\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nHast du deinen schon bestellt oder machst du es auf den letzten Drücker? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps.\n\n#betreibungsauszug #wohnungssuche #wohnungfinden #bewerbungsdossier #schweiz",
-  "status": "geplant",
-  "test": "A – Checkliste («6 Dinge, die …»), ohne Stadt"
+  "status": "in_buffer",
+  "test": "A – Checkliste («6 Dinge, die …»), ohne Stadt",
+  "buffer_post_id": "6af7886481e1228421c824d1"
  },
  {
   "id": "w4_04_fehler",
