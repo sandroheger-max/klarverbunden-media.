@@ -344,8 +344,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_04_fehler_08.jpg"
   ],
   "caption": "Wohnungssuche: Diese 6 Fehler kosten dich Absagen. ❌\n\nOft liegt es nicht an dir, sondern am Dossier oder am Timing. Die meisten Fehler lassen sich in einem Abend beheben.\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWelchen Fehler hast du schon gemacht? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungssuche #wohnungfinden #wohnungzürich #wohnungbern #bewerbungsdossier",
-  "status": "geplant",
-  "test": "B – Fehler-Liste («6 Fehler, die …»)"
+  "status": "in_buffer",
+  "test": "B – Fehler-Liste («6 Fehler, die …»)",
+  "buffer_post_id": "6af8c885e86a5789a6cef0c6"
  },
  {
   "id": "w4_05_reel_kaution",
