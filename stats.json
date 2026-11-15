@@ -104,6 +104,43 @@
    "tiktok": {
     "status": "pausiert (Sicherheitsstopp seit 05.11., Konto pinsel89 unklar)"
    }
+  },
+  {
+   "datum": "2026-11-15",
+   "woche": 5,
+   "instagram": {
+    "follower": 3,
+    "beitraege": 58,
+    "vorwoche_follower": 3,
+    "veraenderung": "0",
+    "beste": [
+     {
+      "thema": "Selbstsabotage (Karussell)",
+      "format": "Karussell",
+      "likes": 2,
+      "kommentare": 1,
+      "gespeichert": "nicht abrufbar",
+      "link": "https://www.instagram.com/p/DffSp1AkSoS/"
+     },
+     {
+      "thema": "Loslassen",
+      "format": "Reel",
+      "likes": 2,
+      "kommentare": 0,
+      "gespeichert": "nicht abrufbar",
+      "link": "https://www.instagram.com/reel/Dfct0uLDC1g/"
+     }
+    ],
+    "woche_09_15_11": "9 Motivations-Reels (Woche 3 + Serie Tag 1–2): zusammen 4 Likes, 0 Kommentare, 0 neue Follower.",
+    "test_vorwoche": "Noch offen: Test A Checkliste vs. B Fehler-Liste (Woche 4) startet erst am 16.11. – noch keine Wohnungs-Beiträge veröffentlicht, daher weder bestätigt noch widerlegt. Auswertung am 22.11.",
+    "test_diese_woche": "Woche 6 (23.–29.11.): A = Stadt im Titel (Zürich/Bern/Basel) vs. B = ohne Stadt; alle als Checkliste, damit nur die Stadt den Unterschied macht.",
+    "payhip": "Kein Wohnungs-Produkt sichtbar (nur Google-Bewertungs-Vorlagen und Selbstsabotage-Workbook) → kein Verkaufshinweis.",
+    "selbstkritik": "Falsch war: Die Woche lief noch komplett mit Motivations-Reels – 0 Wachstum, wie erwartet. Reels schneiden weiter schwächer ab als Karussells. Zusätzlich läuft parallel bis 27.11. die Serie «14 Tage gegen Selbstsabotage» (12:07, am 13.11. in einer anderen Sitzung angelegt, wirbt fürs Workbook) – das vermischt das Profil-Thema. Ich ändere: Woche 6 wieder 5 Karussells + 2 Reels nur zur Wohnungssuche, sauberer A/B-Test (nur Stadt ja/nein), Quellen (EDÖB, Mieterverband, OR) auf den Folien. Gespeichert-Zahlen fehlen weiter (Abfrage liefert keine Insights).",
+    "folgerung": "Erste echte Messung der Wohnungs-Strategie am 22.11., Entscheid am 29.11."
+   },
+   "tiktok": {
+    "status": "pausiert (Sicherheitsstopp seit 05.11., Konto pinsel89 unklar)"
+   }
   }
  ]
 }
