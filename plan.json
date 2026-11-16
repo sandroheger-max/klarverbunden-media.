@@ -488,8 +488,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w5/Klarverbunden_Tag_08.mp4"
   ],
   "caption": "Tag 8/14 – 14 Tage gegen Selbstsabotage\n\nWorüber denkst du schon viel zu lange nach?\n\nFolge @klarverbunden für den nächsten Teil.\n\n#selbstsabotage #persönlichkeitsentwicklung #selbstwert #mindset #klarheit #selbstliebe #motivation #psychologie",
-  "status": "geplant",
-  "test": "Serie 14 Tage gegen Selbstsabotage"
+  "status": "in_buffer",
+  "test": "Serie 14 Tage gegen Selbstsabotage",
+  "buffer_post_id": "6afb29ed37f32fd42a39c137"
  },
  {
   "id": "w5_serie_tag09",
