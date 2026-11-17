@@ -376,8 +376,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_06_besichtigung_09.jpg"
   ],
   "caption": "Wohnungsbesichtigung: Diese 7 Dinge solltest du prüfen. 🔍\n\nIn 15 Minuten Besichtigung übersieht man schnell etwas. Mit dieser Liste weisst du, worauf du schauen und was du fragen musst.\n\nSchick das jemandem, der bald eine Wohnung besichtigt.\n\nWas prüfst du immer zuerst? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps.\n\n#besichtigung #wohnungssuche #wohnungfinden #wohnungbasel #schweiz",
-  "status": "geplant",
-  "test": "A – Checkliste («7 Dinge, die …»), ohne Stadt"
+  "status": "in_buffer",
+  "test": "A – Checkliste («7 Dinge, die …»), ohne Stadt",
+  "buffer_post_id": "6afb9d09797935b975cd9b51"
  },
  {
   "id": "w4_07_fallen",
