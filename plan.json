@@ -394,8 +394,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_07_fallen_07.jpg"
   ],
   "caption": "Neue Wohnung gefunden? Diese 5 Fehler nach der Zusage können teuer werden. 🔑\n\nKaution höchstens 3 Monatsmieten, auf ein Konto auf deinen Namen. Und Mängel beim Einzug immer schriftlich festhalten. (Keine Rechtsberatung – im Zweifel hilft der Mieterverband.)\n\nSchick das jemandem, der gerade umzieht.\n\nWie viel Kaution hast du bei deiner letzten Wohnung bezahlt? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#mietkaution #mietvertrag #wohnungssuche #umzug #schweiz",
-  "status": "geplant",
-  "test": "B – Fehler-Liste («5 Fehler, die …»)"
+  "status": "in_buffer",
+  "test": "B – Fehler-Liste («5 Fehler, die …»)",
+  "buffer_post_id": "6afce407bb12698d1581744a"
  },
  {
   "id": "w5_serie_tag01",
