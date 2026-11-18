@@ -122,8 +122,8 @@ def diagnose():
     print(json.dumps(d, indent=1, ensure_ascii=False))
 
 
-def tiktok_stop():
-    """Löscht künftige, schon in Buffer eingeplante TikTok-Beiträge und setzt sie auf vorrat."""
+def tiktok_stop(path="tiktok/gedankentanken/plan_tiktok.json", prefixes=None):
+    """Löscht künftige, schon in Buffer eingeplante Beiträge (optional nur IDs mit diesen Anfängen) und setzt sie auf vorrat."""
     m = next(f for f in _type("Mutation")["fields"] if f["name"] == "deletePost")
     arg = m["args"][0]
     tname = arg["type"].get("name") or (arg["type"].get("ofType") or {}).get("name")
@@ -136,10 +136,13 @@ def tiktok_stop():
     else:
         mk = lambda pid: {"id": pid}
         sig = "mutation($id: %s!) { deletePost(id: $id) { __typename ... on MutationError { message } } }" % tname
-    path = "tiktok/gedankentanken/plan_tiktok.json"
     plan = json.load(open(path, encoding="utf-8"))
     now = datetime.now(timezone.utc)
     for e in plan:
+        if prefixes and not any(e["id"].startswith(x) for x in prefixes):
+            continue
+        if e.get("status") == "geplant":
+            e["status"] = "vorrat"; continue
         if e.get("status") != "in_buffer" or not e.get("buffer_post_id"):
             continue
         due = datetime.fromisoformat(e["when_zurich"]).replace(tzinfo=ZH).astimezone(timezone.utc)
@@ -165,5 +168,7 @@ if __name__ == "__main__":
         diagnose()
     elif mode == "tiktok_stop":
         tiktok_stop()
+    elif mode == "ig_entfernen":
+        tiktok_stop("plan.json", [x.strip() for x in os.environ.get("NUR_ID", "").split(",") if x.strip()] or None)
     else:
         queue(os.environ.get("NUR_ID") or None)

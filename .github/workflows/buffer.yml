@@ -9,7 +9,7 @@ on:
         description: "check = Verbindung testen, queue = einplanen"
         default: queue
         type: choice
-        options: [queue, check, diagnose, tiktok_stop]
+        options: [queue, check, diagnose, tiktok_stop, ig_entfernen]
       tage:
         description: "wie viele Tage im Voraus einplanen"
         default: "5"
