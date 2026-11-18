@@ -344,9 +344,8 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_04_fehler_08.jpg"
   ],
   "caption": "Wohnungssuche: Diese 6 Fehler kosten dich Absagen. ❌\n\nOft liegt es nicht an dir, sondern am Dossier oder am Timing. Die meisten Fehler lassen sich in einem Abend beheben.\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWelchen Fehler hast du schon gemacht? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungssuche #wohnungfinden #wohnungzürich #wohnungbern #bewerbungsdossier",
-  "status": "in_buffer",
-  "test": "B – Fehler-Liste («6 Fehler, die …»)",
-  "buffer_post_id": "6af8c885e86a5789a6cef0c6"
+  "status": "vorrat",
+  "test": "B – Fehler-Liste («6 Fehler, die …»)"
  },
  {
   "id": "w4_05_reel_kaution",
@@ -356,9 +355,8 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_05_reel_kaution.mp4"
   ],
   "caption": "Mietkaution in der Schweiz: Mehr als 3 Monatsmieten darf der Vermieter bei einer Wohnung nicht verlangen. 💰\n\nSo steht es in Art. 257e OR. Das Geld muss auf ein Bankkonto oder Depot auf deinen Namen. (Keine Rechtsberatung – im Zweifel hilft der Mieterverband.)\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWusstest du das schon? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps.\n\n#mietkaution #wohnungssuche #mietrecht #wohnungfinden #schweiz",
-  "status": "in_buffer",
-  "test": "kein Test (Reel)",
-  "buffer_post_id": "6afa1e5460a910801c49ef48"
+  "status": "vorrat",
+  "test": "kein Test (Reel)"
  },
  {
   "id": "w4_06_besichtigung",
@@ -376,9 +374,8 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_06_besichtigung_09.jpg"
   ],
   "caption": "Wohnungsbesichtigung: Diese 7 Dinge solltest du prüfen. 🔍\n\nIn 15 Minuten Besichtigung übersieht man schnell etwas. Mit dieser Liste weisst du, worauf du schauen und was du fragen musst.\n\nSchick das jemandem, der bald eine Wohnung besichtigt.\n\nWas prüfst du immer zuerst? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps.\n\n#besichtigung #wohnungssuche #wohnungfinden #wohnungbasel #schweiz",
-  "status": "in_buffer",
-  "test": "A – Checkliste («7 Dinge, die …»), ohne Stadt",
-  "buffer_post_id": "6afb9d09797935b975cd9b51"
+  "status": "vorrat",
+  "test": "A – Checkliste («7 Dinge, die …»), ohne Stadt"
  },
  {
   "id": "w4_07_fallen",
@@ -394,9 +391,8 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w4/w4_07_fallen_07.jpg"
   ],
   "caption": "Neue Wohnung gefunden? Diese 5 Fehler nach der Zusage können teuer werden. 🔑\n\nKaution höchstens 3 Monatsmieten, auf ein Konto auf deinen Namen. Und Mängel beim Einzug immer schriftlich festhalten. (Keine Rechtsberatung – im Zweifel hilft der Mieterverband.)\n\nSchick das jemandem, der gerade umzieht.\n\nWie viel Kaution hast du bei deiner letzten Wohnung bezahlt? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#mietkaution #mietvertrag #wohnungssuche #umzug #schweiz",
-  "status": "in_buffer",
-  "test": "B – Fehler-Liste («5 Fehler, die …»)",
-  "buffer_post_id": "6afce407bb12698d1581744a"
+  "status": "vorrat",
+  "test": "B – Fehler-Liste («5 Fehler, die …»)"
  },
  {
   "id": "w5_serie_tag01",
@@ -578,7 +574,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_08_kuendigen_09.jpg"
   ],
   "caption": "Wohnung kündigen in der Schweiz: 7 Dinge, damit die Kündigung gültig ist. ✍️\n\nMieter müssen schriftlich kündigen, mindestens 3 Monate im Voraus – und die Kündigung muss rechtzeitig ANKOMMEN. Ein kleiner Fehler kann dich Monate Miete kosten. (Allgemeine Infos, keine Rechtsberatung.)\n\nSchick das jemandem, der bald umzieht.\n\nHast du schon einmal eine Kündigung zu spät abgeschickt? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungkündigen #mietrecht #wohnungssuche #umzug #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "B – ohne Stadt im Titel (Checkliste)"
  },
  {
@@ -589,7 +585,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_09_reel_nachmieter.mp4"
   ],
   "caption": "Wohnung vorzeitig verlassen: Mit einem Nachmieter musst du nicht bis zum Kündigungstermin zahlen. 📦\n\nNach Art. 264 OR reicht ein zumutbarer Nachmieter: zahlungsfähig und bereit, den Vertrag zu den gleichen Bedingungen zu übernehmen. Lehnt die Verwaltung ihn ab, endet deine Pflicht zur Miete ab dem möglichen Übernahmedatum. (Keine Rechtsberatung – im Zweifel hilft der Mieterverband.)\n\nSchick das jemandem, der früher umziehen will.\n\nHast du schon einmal einen Nachmieter gesucht? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#nachmieter #wohnungssuche #mietrecht #umzug #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "kein Test (Reel)"
  },
  {
@@ -607,7 +603,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_10_anmeldeformular_08.jpg"
   ],
   "caption": "Anmeldeformular Wohnung: Diese 6 Angaben sind laut EDÖB nicht nötig. 📝\n\nBei der Wohnungssuche füllst du viele Formulare aus. Der Datenschützer des Bundes sagt klar, was die Verwaltung fragen darf – und was nicht. Ein Betreibungsauszug als Kopie ist erlaubt, Fragen zur Konfession zum Beispiel nicht.\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWelche Frage im Formular hat dich schon gestört? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungssuche #anmeldeformular #bewerbungsdossier #wohnungfinden #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "B – ohne Stadt im Titel (Checkliste)"
  },
  {
@@ -626,7 +622,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_11_abgabe_09.jpg"
   ],
   "caption": "Wohnung abgeben in Zürich: 7 Tipps, damit die Abnahme dich nichts extra kostet. 🔑\n\nNormale Abnützung musst du nicht bezahlen, und unterschreiben musst du das Abnahmeprotokoll auch nicht vorschnell. Mit dem Einzugsprotokoll in der Hand bist du viel sicherer. (Allgemeine Infos, keine Rechtsberatung.)\n\nSchick das jemandem, der bald auszieht.\n\nWas war bei deiner letzten Wohnungsabgabe am stressigsten? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungsabgabe #wohnungzürich #umzug #mietrecht #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "A – Stadt im Titel (Zürich, Checkliste)"
  },
  {
@@ -637,7 +633,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_12_reel_nebenkosten.mp4"
   ],
   "caption": "Nebenkosten in der Schweiz: Du zahlst nur, was im Mietvertrag einzeln vereinbart ist. 🧾\n\nSo steht es in Art. 257a OR: Nebenkosten muss der Mieter nur separat zahlen, wenn sie besonders vereinbart sind – mit klar genannten Posten. Prüf die Liste, bevor du unterschreibst. (Keine Rechtsberatung – im Zweifel hilft der Mieterverband.)\n\nSchick das jemandem, der gerade eine Wohnung sucht.\n\nWie hoch sind deine Nebenkosten im Monat? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#nebenkosten #mietvertrag #wohnungssuche #mietrecht #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "kein Test (Reel)"
  },
  {
@@ -656,7 +652,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_13_fragen_09.jpg"
   ],
   "caption": "Wohnung finden in Bern: Diese 7 Fragen stellst du bei der Besichtigung. 🏠\n\nWer gute Fragen stellt, wirkt interessiert – und erlebt nach dem Einzug keine Überraschungen. Besonders bei Nebenkosten und Kaution lohnt es sich, nachzufragen.\n\nSchick das jemandem, der bald eine Wohnung besichtigt.\n\nWelche Frage stellst du immer? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungssuche #wohnungbern #besichtigung #wohnungfinden #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "A – Stadt im Titel (Bern, Checkliste)"
  },
  {
@@ -674,7 +670,7 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w6/w6_14_fake_08.jpg"
   ],
   "caption": "Wohnungssuche Basel: 6 Warnzeichen, an denen du Fake-Inserate erkennst. 🚩\n\nBetrüger kopieren echte Wohnungsfotos und verlangen Geld, bevor du die Wohnung je gesehen hast. Die wichtigste Regel: keine Überweisung vor Besichtigung und Vertrag.\n\nSchick das jemandem, der gerade online nach Wohnungen sucht.\n\nBist du schon einmal auf ein Fake-Inserat gestossen? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungssuche #wohnungbasel #betrug #wohnungfinden #schweiz",
-  "status": "geplant",
+  "status": "vorrat",
   "test": "A – Stadt im Titel (Basel, Checkliste)"
  }
 ]
