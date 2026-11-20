@@ -534,8 +534,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w5/Klarverbunden_Tag_12.mp4"
   ],
   "caption": "Tag 12/14 – 14 Tage gegen Selbstsabotage\n\nWelche Ausrede benutzt du am häufigsten?\n\nFolge @klarverbunden für den nächsten Teil.\n\n#selbstsabotage #persönlichkeitsentwicklung #selbstwert #mindset #klarheit #selbstliebe #motivation #psychologie",
-  "status": "geplant",
-  "test": "Serie 14 Tage gegen Selbstsabotage"
+  "status": "in_buffer",
+  "test": "Serie 14 Tage gegen Selbstsabotage",
+  "buffer_post_id": "6b00694e1f64cbbbceff871c"
  },
  {
   "id": "w5_serie_tag13",
