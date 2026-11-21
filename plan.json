@@ -546,8 +546,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w5/Klarverbunden_Tag_13.mp4"
   ],
   "caption": "Tag 13/14 – 14 Tage gegen Selbstsabotage\n\nWas machst du jeden Tag, auch ohne Lust?\n\nFolge @klarverbunden für den nächsten Teil.\n\n#selbstsabotage #persönlichkeitsentwicklung #selbstwert #mindset #klarheit #selbstliebe #motivation #psychologie",
-  "status": "geplant",
-  "test": "Serie 14 Tage gegen Selbstsabotage"
+  "status": "in_buffer",
+  "test": "Serie 14 Tage gegen Selbstsabotage",
+  "buffer_post_id": "6b01af298bd84d5966f6f65f"
  },
  {
   "id": "w5_serie_tag14",
