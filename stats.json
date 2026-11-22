@@ -141,6 +141,41 @@
    "tiktok": {
     "status": "pausiert (Sicherheitsstopp seit 05.11., Konto pinsel89 unklar)"
    }
+  },
+  {
+   "datum": "2026-11-22",
+   "woche": 7,
+   "instagram": {
+    "follower": 3,
+    "beitraege": 70,
+    "vorwoche_follower": 3,
+    "veraenderung": "0 (seit 3 Wochen unverändert, trotz 70 Beiträgen)",
+    "beste": [
+     {
+      "thema": "Serie Tag 2 – Aufschieben",
+      "format": "Reel",
+      "likes": 2,
+      "kommentare": 0,
+      "link": "https://www.instagram.com/reel/DfwosilBbww/"
+     },
+     {
+      "thema": "Serie Tag 8 – Grübeln",
+      "format": "Reel",
+      "likes": 1,
+      "kommentare": 1,
+      "link": "https://www.instagram.com/reel/DgAFdwptbL6/"
+     }
+    ],
+    "woche_16_22_11": "3 Wohnungs-Beiträge (16.–18.11.): 0 Likes, 0 Kommentare. Serie-Reels Tag 3–9: zusammen 4 Likes, 1 Kommentar. 0 neue Follower.",
+    "test_vorwoche": "A Checkliste vs. B Fehler-Liste: nicht auswertbar – Wohnungs-Inhalte am 18.11. gestoppt, B lief nie. Beide Wohnungs-Karussells 0 Likes.",
+    "test_diese_woche": "A = Problem-Hook (Du-Situation auf Folie 1: Nr. 3, 4, 7) vs. B = Lösungs-Hook (Zahl + Ergebnis: Nr. 1, 6). Gemessen an Likes+Kommentaren pro Karussell.",
+    "payhip": "Workbook «Raus aus der Selbstsabotage» (CHF 14) sichtbar → 1 Hinweis (Klartext Nr. 7, 29.11.).",
+    "selbstkritik": "Falsch war: zu viele Themenwechsel (Motivation → Wohnung → zurück) und 2 Beiträge pro Tag auf einem Konto ohne Reichweite. 70 Beiträge, 3 Follower: Mehr Beiträge allein bringen nichts, Instagram zeigt sie kaum jemandem. Ich ändere: ein klares Thema mit fester Serie «Klartext Nr. X», jeder Beitrag mit konkreter Übung. Ehrlicher Vorschlag an Sandro gemacht (siehe folgerung).",
+    "folgerung": "Kein messbares Wachstum nach 2 Wochen → Vorschlag: Woche 7 als letzter Test. Wenn bis 29.11. nicht mind. 10 Follower: Instagram-Posting auf 3 Karussells/Woche reduzieren und täglich 10 Min. selbst echte Kommentare bei grösseren Schweizer Konten zum Thema schreiben – oder das Konto ruhen lassen."
+   },
+   "tiktok": {
+    "status": "pausiert (Sicherheitsstopp seit 05.11., Konto pinsel89 unklar)"
+   }
   }
  ]
 }

@@ -676,5 +676,117 @@
   "caption": "Wohnungssuche Basel: 6 Warnzeichen, an denen du Fake-Inserate erkennst. 🚩\n\nBetrüger kopieren echte Wohnungsfotos und verlangen Geld, bevor du die Wohnung je gesehen hast. Die wichtigste Regel: keine Überweisung vor Besichtigung und Vertrag.\n\nSchick das jemandem, der gerade online nach Wohnungen sucht.\n\nBist du schon einmal auf ein Fake-Inserat gestossen? 👇\n\nFolge @klarverbunden für mehr Wohnungs-Tipps für die Schweiz.\n\n#wohnungssuche #wohnungbasel #betrug #wohnungfinden #schweiz",
   "status": "vorrat",
   "test": "A – Stadt im Titel (Basel, Checkliste)"
+ },
+ {
+  "id": "w7_01_neinsagen",
+  "when_zurich": "2026-11-23T18:27",
+  "type": "carousel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_01.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_02.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_03.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_04.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_05.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_06.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_07.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_08.jpg"
+  ],
+  "caption": "Grenzen setzen: 5 Sätze, mit denen du Nein sagst – ohne Ausrede.\n\nDu sagst Ja, obwohl du Nein meinst, und ärgerst dich danach? Das Problem ist selten der Wille, sondern dass dir im Moment die Worte fehlen. Lern einen Satz auswendig – dann ist er da, wenn du ihn brauchst.\n\nSchick das jemandem, der das gerade braucht.\n\nWelcher Satz fällt dir am schwersten: 1, 2, 3, 4 oder 5? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#grenzensetzen #neinsagen #selbstwert #selbstsabotage #persönlichkeitsentwicklung",
+  "status": "geplant",
+  "test": "B – Lösungs-Hook: Zahl + Ergebnis auf Folie 1 («5 Sätze, mit denen …»)"
+ },
+ {
+  "id": "w7_02_reel_zweiminuten",
+  "when_zurich": "2026-11-24T18:27",
+  "type": "reel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_02_reel_zweiminuten.mp4"
+  ],
+  "caption": "Aufschieben? Mach nur 2 Minuten.\n\nDas Schwerste an einer Aufgabe ist oft der Anfang. Nimm dir nur 2 Minuten vor – danach darfst du aufhören. Ziemlich oft machst du dann einfach weiter.\n\nSchick das jemandem, der das gerade braucht.\n\nWelche Aufgabe startest du heute mit 2 Minuten? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#aufschieben #prokrastination #selbstsabotage #disziplin #gewohnheiten",
+  "status": "geplant",
+  "test": "kein Test (Reel)"
+ },
+ {
+  "id": "w7_03_anzeichen",
+  "when_zurich": "2026-11-25T18:27",
+  "type": "carousel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_01.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_02.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_03.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_04.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_05.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_06.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_07.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_08.jpg"
+  ],
+  "caption": "Selbstsabotage erkennen: 3 Anzeichen – und was du morgen anders machst.\n\nSelbstsabotage fühlt sich selten wie Sabotage an. Meist wirkt sie vernünftig: später anfangen, Ziel kleinreden, etwas Neues beginnen. Jedes Anzeichen hat hier einen kleinen Schritt für morgen.\n\nSchick das jemandem, der das gerade braucht.\n\nWelches Anzeichen erkennst du bei dir: 1, 2 oder 3? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#selbstsabotage #selbstreflexion #ziele #aufschieben #persönlichkeitsentwicklung",
+  "status": "geplant",
+  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du sabotierst dich, wenn …»)"
+ },
+ {
+  "id": "w7_04_aufschieben",
+  "when_zurich": "2026-11-26T18:27",
+  "type": "carousel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_01.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_02.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_03.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_04.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_05.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_06.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_07.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_08.jpg"
+  ],
+  "caption": "Aufschieben stoppen: 5 Mal «Tu das statt das».\n\nDu weisst genau, was zu tun wäre – und machst es trotzdem nicht. Das liegt selten an Faulheit. Diese 5 Wechsel machen den Anfang so klein, dass du ihn kaum vermeiden kannst.\n\nSchick das jemandem, der das gerade braucht.\n\nWas schiebst du gerade vor dir her? Ein Wort reicht 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#aufschieben #prokrastination #selbstsabotage #disziplin #produktivität",
+  "status": "geplant",
+  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du schiebst es seit Wochen auf?»)"
+ },
+ {
+  "id": "w7_05_reel_danke",
+  "when_zurich": "2026-11-27T18:27",
+  "type": "reel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_05_reel_danke.mp4"
+  ],
+  "caption": "Selbstwert im Alltag: Sag Danke statt Sorry.\n\nWer sich für alles entschuldigt, macht sich kleiner, als er ist. Mit «Danke» statt «Sorry» bleibst du höflich – und stellst dich nicht selbst als Problem hin.\n\nSchick das jemandem, der das gerade braucht.\n\nWofür entschuldigst du dich zu oft? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#selbstwert #selbstbewusstsein #kommunikation #selbstsabotage #grenzensetzen",
+  "status": "geplant",
+  "test": "kein Test (Reel)"
+ },
+ {
+  "id": "w7_06_trennung",
+  "when_zurich": "2026-11-28T18:27",
+  "type": "carousel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_01.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_02.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_03.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_04.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_05.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_06.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_07.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_08.jpg"
+  ],
+  "caption": "Trennung verarbeiten: 6 Dinge, die dir die erste Woche leichter machen.\n\nIn den ersten Tagen nach einer Trennung helfen keine klugen Sprüche, sondern kleine feste Punkte im Tag. Diese 6 Dinge kannst du sofort umsetzen. (Keine Therapie-Tipps – wenn es dir lange schlecht geht, hol dir Hilfe.)\n\nSchick das jemandem, der das gerade braucht.\n\nWas hat dir nach einer Trennung am meisten geholfen? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#trennung #liebeskummer #beziehung #selbstwert #loslassen",
+  "status": "geplant",
+  "test": "B – Lösungs-Hook: Zahl + Ergebnis auf Folie 1 («6 Dinge für Woche 1»)"
+ },
+ {
+  "id": "w7_07_innerestimme",
+  "when_zurich": "2026-11-29T18:27",
+  "type": "carousel",
+  "media": [
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_01.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_02.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_03.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_04.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_05.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_06.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_07.jpg",
+   "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_07_innerestimme_08.jpg"
+  ],
+  "caption": "Selbstwert stärken: So antwortest du deiner inneren Stimme.\n\nDie Sätze, die wir uns selbst sagen, würden wir keinem Freund sagen. Du musst sie nicht wegdrücken – ersetze sie durch einen Satz, der ehrlich ist und dich weiterbringt. Das Workbook «Raus aus der Selbstsabotage» mit 30 Tagesübungen findest du über den Link in der Bio.\n\nSchick das jemandem, der das gerade braucht.\n\nWelchen Satz sagst du dir am häufigsten? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#selbstwert #selbstsabotage #innerekritiker #selbstliebe #persönlichkeitsentwicklung",
+  "status": "geplant",
+  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du redest schlecht über dich?»)"
  }
 ]
