@@ -692,8 +692,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_01_neinsagen_08.jpg"
   ],
   "caption": "Grenzen setzen: 5 Sätze, mit denen du Nein sagst – ohne Ausrede.\n\nDu sagst Ja, obwohl du Nein meinst, und ärgerst dich danach? Das Problem ist selten der Wille, sondern dass dir im Moment die Worte fehlen. Lern einen Satz auswendig – dann ist er da, wenn du ihn brauchst.\n\nSchick das jemandem, der das gerade braucht.\n\nWelcher Satz fällt dir am schwersten: 1, 2, 3, 4 oder 5? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#grenzensetzen #neinsagen #selbstwert #selbstsabotage #persönlichkeitsentwicklung",
-  "status": "geplant",
-  "test": "B – Lösungs-Hook: Zahl + Ergebnis auf Folie 1 («5 Sätze, mit denen …»)"
+  "status": "in_buffer",
+  "test": "B – Lösungs-Hook: Zahl + Ergebnis auf Folie 1 («5 Sätze, mit denen …»)",
+  "buffer_post_id": "6b030e7dbf5d5a73b6a036fe"
  },
  {
   "id": "w7_02_reel_zweiminuten",
@@ -703,8 +704,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_02_reel_zweiminuten.mp4"
   ],
   "caption": "Aufschieben? Mach nur 2 Minuten.\n\nDas Schwerste an einer Aufgabe ist oft der Anfang. Nimm dir nur 2 Minuten vor – danach darfst du aufhören. Ziemlich oft machst du dann einfach weiter.\n\nSchick das jemandem, der das gerade braucht.\n\nWelche Aufgabe startest du heute mit 2 Minuten? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#aufschieben #prokrastination #selbstsabotage #disziplin #gewohnheiten",
-  "status": "geplant",
-  "test": "kein Test (Reel)"
+  "status": "in_buffer",
+  "test": "kein Test (Reel)",
+  "buffer_post_id": "6b030e7ed864a01105d5cf4b"
  },
  {
   "id": "w7_03_anzeichen",
@@ -721,8 +723,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_03_anzeichen_08.jpg"
   ],
   "caption": "Selbstsabotage erkennen: 3 Anzeichen – und was du morgen anders machst.\n\nSelbstsabotage fühlt sich selten wie Sabotage an. Meist wirkt sie vernünftig: später anfangen, Ziel kleinreden, etwas Neues beginnen. Jedes Anzeichen hat hier einen kleinen Schritt für morgen.\n\nSchick das jemandem, der das gerade braucht.\n\nWelches Anzeichen erkennst du bei dir: 1, 2 oder 3? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#selbstsabotage #selbstreflexion #ziele #aufschieben #persönlichkeitsentwicklung",
-  "status": "geplant",
-  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du sabotierst dich, wenn …»)"
+  "status": "in_buffer",
+  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du sabotierst dich, wenn …»)",
+  "buffer_post_id": "6b030e7ed864a01105d5cf7c"
  },
  {
   "id": "w7_04_aufschieben",
@@ -739,8 +742,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_04_aufschieben_08.jpg"
   ],
   "caption": "Aufschieben stoppen: 5 Mal «Tu das statt das».\n\nDu weisst genau, was zu tun wäre – und machst es trotzdem nicht. Das liegt selten an Faulheit. Diese 5 Wechsel machen den Anfang so klein, dass du ihn kaum vermeiden kannst.\n\nSchick das jemandem, der das gerade braucht.\n\nWas schiebst du gerade vor dir her? Ein Wort reicht 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#aufschieben #prokrastination #selbstsabotage #disziplin #produktivität",
-  "status": "geplant",
-  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du schiebst es seit Wochen auf?»)"
+  "status": "in_buffer",
+  "test": "A – Problem-Hook: Situation in Du-Form auf Folie 1 («Du schiebst es seit Wochen auf?»)",
+  "buffer_post_id": "6b030e7fcc364169c1663c8c"
  },
  {
   "id": "w7_05_reel_danke",
