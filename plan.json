@@ -773,8 +773,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_06_trennung_08.jpg"
   ],
   "caption": "Trennung verarbeiten: 6 Dinge, die dir die erste Woche leichter machen.\n\nIn den ersten Tagen nach einer Trennung helfen keine klugen Sprüche, sondern kleine feste Punkte im Tag. Diese 6 Dinge kannst du sofort umsetzen. (Keine Therapie-Tipps – wenn es dir lange schlecht geht, hol dir Hilfe.)\n\nSchick das jemandem, der das gerade braucht.\n\nWas hat dir nach einer Trennung am meisten geholfen? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#trennung #liebeskummer #beziehung #selbstwert #loslassen",
-  "status": "geplant",
-  "test": "B – Lösungs-Hook: Zahl + Ergebnis auf Folie 1 («6 Dinge für Woche 1»)"
+  "status": "in_buffer",
+  "test": "B – Lösungs-Hook: Zahl + Ergebnis auf Folie 1 («6 Dinge für Woche 1»)",
+  "buffer_post_id": "6b0485ec768ab8d8e4050957"
  },
  {
   "id": "w7_07_innerestimme",
@@ -808,8 +809,9 @@
    "https://raw.githubusercontent.com/sandroheger-max/klarverbunden-media./main/w7/w7_08_disziplin_07.jpg"
   ],
   "caption": "Disziplin ohne Willenskraft: 5 Regeln, die im Alltag funktionieren.\n\nWer sich nur auf Willenskraft verlässt, gibt meist nach ein paar Tagen auf. Besser: den Alltag so einrichten, dass das Richtige leichter ist als das Falsche.\n\nSchick das jemandem, der das gerade braucht.\n\nWelche Regel probierst du zuerst: 1, 2, 3, 4 oder 5? 👇\n\nFolge @klarverbunden – Klartext gegen Selbstsabotage.\n\n#disziplin #gewohnheiten #aufschieben #selbstsabotage #routine",
-  "status": "geplant",
-  "test": "kein Test (Extra-Beitrag 12:07)"
+  "status": "in_buffer",
+  "test": "kein Test (Extra-Beitrag 12:07)",
+  "buffer_post_id": "6b0485ed768ab8d8e405097f"
  },
  {
   "id": "w7_09_kompliment",
